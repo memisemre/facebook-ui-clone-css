@@ -1,0 +1,178 @@
+.old-design
+{
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          width: 100%;
+          height: 100vh;
+}
+.old-design main
+{
+          height: 720px;
+          width: 100%;
+          background-color: #f0f2f5;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.old-design main .left-side
+{
+          margin-right: 24px;
+}
+.old-design main .left-side
+{
+          margin-top: -12vh;
+}
+.old-design main .right-side
+{
+          margin-top: -8vh;
+}
+.old-design main .left-side .logo img
+{
+          width: 240px;
+          height: 45px;
+          margin-bottom: 8px;
+}
+.old-design main .left-side p
+{
+          margin-top:1vh;
+          width: 500px;
+          font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+          font-size: 28px;
+}
+.old-design main .right-side 
+{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          width: 396px;
+}
+.old-design main .right-side .form-container
+{
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          width: 396px;
+          background-color: #fff;
+          height: 350px;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+          margin-left: 64px;
+          padding: 0 16px;
+}
+.old-design main .right-side .form-container input
+{
+          margin-top: 1.5vh;
+          border-radius: 8px;
+          width: 100%;
+          padding: 14px 16px;
+          color: gray;
+          border: 1px solid #dddfe2;
+          font-size: 17px;
+}
+.old-design main .right-side .form-container input:focus
+{
+          outline: none;
+          box-shadow: 0 0 0 2px #e7f3ff;
+          border: 1px solid  #1877f2;
+}
+.old-design main .right-side .login-button
+{
+         background-color: #1877f2;
+         font-size: 20px;
+         border-radius: 8px;
+         padding: 0 16px;
+         width: 100%;
+         margin-top: 1vh;
+         line-height: 48px;
+         color: white;
+         font-weight: bold;
+         text-shadow: none;
+         text-align: center;
+}
+.old-design main .right-side .form-container .find-pw
+{
+          color: #1877f2;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          margin-top: 1.5vh;
+          font-size: 14px;
+}
+.old-design main .right-side .form-container .find-pw::after
+{
+          content: "";
+          margin-top: 1.5vh;
+          width: 370px;
+          height: 1px;
+          background-color: #dadde1;
+}
+.old-design main .right-side .form-container .sign-up
+{
+          width: auto;
+          padding: 0 16px;
+          border-radius: 6px;
+          background-color: #42b72a;
+          line-height: 48px;
+          font-weight: bold;
+          color: #fff;
+          margin-top: 1.5vh;
+}
+.old-design main .right-side .business-text
+{
+          margin-left: auto;
+          color: #1c1e21;
+          margin-top: 2.5vh;
+          font-size: 14px;
+}
+.old-design main .right-side .business-text a
+{
+          color: #1c1e21;
+          font-weight: bold;
+          text-decoration: none;
+}
+.old-design footer
+{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          margin-top: 2vh;
+}
+.old-design footer .top-menu
+{
+          width: 900px;
+}
+.old-design footer .top-menu a,
+.old-design footer .bottom-menu a,
+.old-design footer .copyright
+{
+          font-size: 12px;
+          color: #8a8d9f;
+          text-decoration: none;
+          margin-left: 8px;
+}
+.old-design footer .top-menu a:hover,
+.old-design footer .bottom-menu a:hover
+{
+          text-decoration: underline;
+}
+.old-design footer .top-menu::after
+{
+          content: "";
+          width: 100%;
+          height: 2px;
+          background-color: #dddfe2;
+          display: block;
+          margin-top: 0.5vh;
+}
+.old-design footer .bottom-menu
+{
+          width: 900px;
+          margin-top: 0.5vh;
+}
+.old-design footer .copyright
+{
+          width: 900px;
+          margin-top: 1vh;
+}
